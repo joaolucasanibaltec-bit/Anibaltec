@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Dados sensíveis
+.env
+*.env.local
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Outputs gerados (são criados em execução)
+output/
