@@ -1,0 +1,16 @@
+# Tokens
+tokens.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build
+build/
+
+# OS
+.DS_Store
+Thumbs.db
