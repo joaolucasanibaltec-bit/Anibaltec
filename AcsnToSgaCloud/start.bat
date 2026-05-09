@@ -28,9 +28,9 @@ pip install -r "%~dp0backend\requirements.txt" -q 2>nul
 
 :: Inicia o servidor
 echo.
-echo Iniciando servidor em http://localhost:8000
+echo Iniciando servidor em http://localhost:20000
 echo.
-start http://localhost:8000
+start http://localhost:20000
 python "%~dp0run.py"
 
 :fim
