@@ -14,7 +14,7 @@ if [ -f "./AcsnToSgaCloud" ]; then
     echo "Iniciando versao standalone..."
     ./AcsnToSgaCloud &
     sleep 2
-    xdg-open "http://localhost:8000" 2>/dev/null || true
+    xdg-open "http://localhost:20000" 2>/dev/null || true
     wait
     exit 0
 fi
@@ -32,7 +32,7 @@ pip3 install -r "$SCRIPT_DIR/backend/requirements.txt" -q 2>/dev/null
 
 # Inicia o servidor
 echo ""
-echo "Iniciando servidor em http://localhost:8000"
+echo "Iniciando servidor em http://localhost:20000"
 echo ""
-xdg-open "http://localhost:8000" 2>/dev/null || true
+xdg-open "http://localhost:20000" 2>/dev/null || true
 python3 "$SCRIPT_DIR/run.py"
