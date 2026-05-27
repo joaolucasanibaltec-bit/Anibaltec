@@ -1,0 +1,14 @@
+node_modules/
+.env
+tokens.env
+.mcp.json
+*.tmp
+*.exe
+__pycache__/
+*.pyc
+dist/
+!AcsnToSgaCloud/frontend/dist/
+build/
+output/
+uploads/
+
