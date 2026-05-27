@@ -1,16 +1,9 @@
-# Tokens
-tokens.env
+# Ignorar tudo que está nas branches de apps
+AcsnToSgaCloud/
+SgaToSgaCloud/
+
+# Geral
 .env
-
-# Python
+*.exe
+node_modules/
 __pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-
-# Build
-build/
-
-# OS
-.DS_Store
-Thumbs.db
